@@ -4,6 +4,14 @@
 # Set up Konsole prepopulated with named tabs, commands already executed on
 # those tabs, and commands in the history -- all of this is on a per-tab basis.
 #
+# NOTE: This script only works with older Konsole versions using DCOP, not the 
+#       newer ones using D-Bus.
+#
+# The primary advantage to using this as opposed to using Konsole's profile
+# capabilities is the ability to set up per-tab history, so invoking
+# frequently used commands is easy. It is currently limited to just one 
+# 'profile.'
+#
 # Author: Eric Subach (2012)
 # Copyright 2013 In-Depth Engineering. All Rights Reserved.
 #
